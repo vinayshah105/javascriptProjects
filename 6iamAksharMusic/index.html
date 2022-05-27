@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Listening Music Everywhere</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+    
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="navBar">
+        <div class="navItem">
+            <img src="../projectImg/iAmaksharLogo.png" alt="iamAkshar" />
+        </div>
+        <div class="navItem">
+          <ul>
+            <li><a href="http://127.0.0.1:5500/6Spotify/index.html">iamAkshar</a></li>
+            <li><a href="#" onclick="yourLib()">Bhajan</a></li>
+            <li><a href="#" onclick="divyangRay()">Divyang Ray's Playlist</a></li>
+            <li><a href="#" onclick="jayeshGandhi()">Jayesh Gandhi's Playlist</a></li>
+          </ul>
+        </div>
+        <div class="navItem-a input-group">
+          <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <input type="text" class="form-control" placeholder="Artists, songs or podcasts" aria-describedby="basic-addon1"/>
+        </div>
+      </div>
+
+      <div id="section">
+        <div class="song-info">
+            <img src="../projectImg/song1.jpg" alt="song1">
+            <span class="name">Sidhu Moosewala Mashup</span>
+            <span class="songPlayed"><span class="time">5:10</span> <i id="0"  class="songPlay fa-solid fa-play-circle"></i></span>
+        </div>
+        <div class="song-info">
+                <img src="../projectImg/song1.jpg" alt="song2">
+                <span class="name">Sidhu Moosewala Mashup</span>
+                <span class="songPlayed"><span class="time">5:10</span> <i id="1" class="songPlay fa-solid fa-play-circle"></i></span>
+        </div>
+        <div class="song-info">
+            <img src="../projectImg/song1.jpg" alt="song3">
+            <span class="name">Sidhu Moosewala Mashup</span>
+            <span class="songPlayed"><span class="time">5:10</span><i id="2" class="songPlay fa-solid fa-play-circle"></i></span>
+        </div>
+        <div class="song-info">
+            <img src="../projectImg/song1.jpg" alt="song4">
+            <span class="name">Sidhu Moosewala Mashup</span>
+            <span class="songPlayed"><span class="time">5:10</span> <i id="3" class="songPlay fa-solid fa-play-circle"></i></span>
+        </div>
+        <div class="song-info">
+            <img src="../projectImg/song1.jpg" alt="song5">
+            <span class="name">Sidhu Moosewala Mashup</span>
+            <span class="songPlayed"><span class="time">5:10</span> <i id="4" class="songPlay fa-solid fa-play-circle"></i></span>
+        </div>
+        <div class="song-info">
+            <img src="../projectImg/song1.jpg" alt="song6">
+            <span class="name">Sidhu Moosewala Mashup</span>
+            <span class="songPlayed"><span class="time">5:10</span> <i id="5" class="songPlay fa-solid fa-play-circle"></i></span>
+        </div>
+        <div class="song-info">
+          <img src="../projectImg/song1.jpg" alt="song6">
+          <span class="name">Sidhu Moosewala Mashup</span>
+          <span class="songPlayed"><span class="time">5:10</span> <i id="5" class="songPlay fa-solid fa-play-circle"></i></span>
+      </div>
+      </div>
+
+      <div id="footer">
+          <div class="footer-music">
+              <input type="range" id="seekBar" class="form-range" min="0" max="100" value="0">
+              <div class="title"></div>
+          <ul>
+            <li><i class="fa-solid fa-circle-chevron-left" id="masterPrevious" onclick="previousSong()"></i></li>
+            <li><i class="fa-solid fa-play" id="masterPlay" onclick="playSong()" ></i></li>
+            <li><i class="fa-solid fa-circle-chevron-right" id="masterNext" onclick="nextSong()"></i></li>
+            
+          </ul>
+          </div>
+          <div class="footer-music">
+              <img id="gif" src="../projectImg/music1.gif" alt="Music">
+          </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6412fe3b14.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
