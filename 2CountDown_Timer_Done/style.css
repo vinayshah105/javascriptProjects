@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/temple1.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "poppins", sans-serif;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-family: monospace;
+    font-size: 50px;
+    color: whitesmoke;
+    letter-spacing: 5px;
+
+}
+#main1{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: grid;
+    margin-right: 80px;
+}
+.timer{
+    font-size: 100px;
+    font-family: auto;
+}
+.timer1{
+    font-size: 17px;
+    font-family: sans-serif;
+}
