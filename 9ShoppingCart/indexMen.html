@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@200;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+</head>
+<body>
+    <header id="main">
+        <div>
+            <img src="../img/myntraLogo.png" id="logo" alt="Myntra">
+        </div>
+        <div id="menu">
+            <a href="./indexMen.html" class="btn btn-2">MEN</a> 
+            <a href="./indexWomen.html" class="btn btn-2">WOMEN</a> 
+            <a href="./indexKids.html" class="btn btn-2">KIDS</a> 
+            <a href="./indexBeauty.html" class="btn btn-2">BEAUTY</a>  
+        </div>
+        <div id="search">
+            <div id="searchItem">
+                <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+                <input type="text" id="searchBar" placeholder="Search for products, brands and more">
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"><span id="cartItem">0</span></i>
+              
+            </div>
+        </div>
+    </header>
+
+      <ul id="social-sidebar">
+        <li>
+          <a class="entypo-twitter"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a class="entypo-facebook"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a class="entypo-gplus"><i class="fa-brands fa-pinterest"></i></a>
+        </li>
+        <li>
+          <a class="entypo-dribbble"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+    <section>
+      <main id="product">
+      </main>
+      <div>
+        <nav>
+          <h3>Checkout</h3>
+          <div id="checkout">
+          </div>
+        </nav>
+        <div id="total-check">
+          <div class="total">Subtotal (Total Items:<span id="qty"></span>) : &nbsp; &#8377<span id="total"></span> /-</div>
+          <div class="checkout">Proceed to Checkout</div>
+        </div>
+      < /div>
+    </section>
+    
+    <footer>
+      <div>
+        <h4>ONLINE SHOPING</h4>
+        <ul>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
+          <li>Home & Living</li>
+          <li>Beauty</li>
+          <li>Gift Cards</li>
+          <li>Myntra Insider</li>
+        </ul>
+      </div>
+      <div>
+        <h4>USEFUL LINKS</h4>
+        <ul>
+          <li>Contact Us</li>
+          <li>FAQ</li>
+          <li>T&C</li>
+          <li>Terms Of Use</li>
+          <li>Track Orders</li>
+          <li>Shipping</li>
+          <li>Cancellation</li>
+          <li>Returns</li>
+          <li>Whitrhat</li>
+          <li>Blog</li>
+          <li>Careers</li>
+          <li>Privacy Policy</li>
+          <li>Site Map</li>
+          <li>Corporate Information</li>
+        </ul>
+      </div>
+      <div>
+        <span>
+          <h4>EXPERIENCE MYNTRA APP ON MOBILE</h4>
+          <div>
+            <img src="../img/playstore.png" alt="playstore">
+            <img src="../img/appstore.png" alt="appstore">
+          </div>
+        </span>
+        <span>
+          <h4>KEEP IN TOUCH</h4>
+          <ul id="social-media">
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-pinterest"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+        </span>
+      </div>
+    </footer>
+
+    
+    <script src="./productMen.js"></script>
+    <script src="./app.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

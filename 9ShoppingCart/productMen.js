@@ -1,0 +1,88 @@
+let productMen = [
+  { id:0,
+    image: "../img/t-1.jpg",
+    title: "OLD NAVY",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 571,
+    actualPrice: 999,
+    discount: 45
+  }, { id:1,
+    image: "../img/tv-2.jpg",
+    title: "Roadster",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 777,
+    actualPrice: 1199,
+    discount: 35
+  }, { id:2,
+    image: "../img/tv-1.jpg",
+    title: "V neck t-shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 800,
+    actualPrice: 999,
+    discount: 15
+  }, { id:3,
+    image: "../img/tp-1.jpg",
+    title: "POLO T-shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 1499,
+    actualPrice: 1999,
+    discount: 30
+  }, { id:4,
+    image: "../img/tp-2.jpg",
+    title: "US POLO White T-shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 2571,
+    actualPrice: 2999,
+    discount: 20
+  }, { id:5,
+    image: "../img/s-1.jpg",
+    title: "Sky Blue Plain Shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 1571,
+    actualPrice: 1799,
+    discount: 15
+  }, { id:6,
+    image: "../img/s-4.jpg",
+    title: "Premium Shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 1871,
+    actualPrice: 1999,
+    discount: 10
+  }, { id:7,
+    image: "../img/s-2.jpg",
+    title: "Tommy Hilfiger Shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 2571,
+    actualPrice: 2999,
+    discount: 35
+  }, { id:8,
+    image: "../img/s-10.jpg",
+    title: "Banana Republic Premium Shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 3571,
+    actualPrice: 3999,
+    discount: 12
+  }, { id:9,
+    image: "../img/s-3.jpg",
+    title: "Holister Shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 1571,
+    actualPrice: 1999,
+    discount: 15
+  }, { id:10,
+    image: "../img/tp-3.jpg",
+    title: "Under Armour POLO T-shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 2571,
+    actualPrice: 3999,
+    discount: 40
+  }, { id:11,
+    image: "../img/t-2.jpg",
+    title: "Plain T-shirt",
+    description: "Fashion is the armor to survive the reality of everyday life.",
+    discountPrice: 571,
+    actualPrice: 699,
+    discount: 5
+  }
+]
+
